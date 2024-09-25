@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json())
 app.use(cors({
-    origin : "http://localhost:3000"
+    origin : "ecommerce-frontend-mauve-ten.vercel.app" //https://localhost:3000
 }))
 
 const port = 5000;
