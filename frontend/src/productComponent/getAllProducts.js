@@ -101,7 +101,7 @@ function GetAllProducts() {
           {data &&
             data.map((ele, index) => {
               return (
-                <Card sx={{ width: 300, height: 450 }} className="card" key={index}>
+                <Card sx={{ width: '25%', height: '10%' }} className="card" key={index}>
                   <CardMedia
                     sx={{ height: 200, objectFit: 'cover' }} 
                     image={ele.productImage}

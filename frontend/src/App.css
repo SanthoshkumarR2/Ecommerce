@@ -74,7 +74,7 @@ ul li {
 }
 
 .products-container {
-  min-height: 50%;
+  min-height: 10%;
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
@@ -141,15 +141,21 @@ ul li {
 }
 
 .search-container {
+  display: grid;
   padding: 40px;
+  justify-items: center;
+  margin: 10px;
+  align-content: space-between;
+  justify-content: space-between;
 }
 
 .card-container {
   display: grid;
   gap: 20px;
-  grid-row: 3;
-  min-height: min-content;
+  grid-template-columns: auto;
   padding: 60px;
+  justify-content: start;
+  align-content: stretch;
 }
 
 .card {

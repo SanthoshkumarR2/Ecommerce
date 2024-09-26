@@ -20,9 +20,9 @@ import "./App.css"
         { values.results && values.results.length > 0 ? 
             values.results.map((ele, index) => {
                 return (
-    <Card sx={{ maxWidth: 100 }}>
+    <Card sx={{ maxWidth: '30%', height: '90%'}}>
       <CardMedia
-        sx={{ height: 100 }}
+        sx={{ height: 300, objectFit:'cover' }}
         image={ele.productImage}
         title="green iguana"
       />
